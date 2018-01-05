@@ -1,0 +1,71 @@
+/* Header */
+.top-header {
+	position: relative;
+	display: block;
+	width: 100%;
+	background: #1c0a77;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 2;
+	height: 100vh;
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	display: inline-block;
+	z-index: 9999;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.main-subtitle {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,50%,0);
+	transform: translate3d(-50%,50%,0);
+}
+
+hr.hr-title {
+		width:50%;
+		position: absolute;
+		top: 54%;
+		left: 25%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.demo-1 .main-title{
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+.demo-1 .main-subtitle{
+	font-size: 3.0em;
+	letter-spacing: 0.1em;
+	font-weight: 100
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title,
+	.demo-1 .main-subtitle {
+		font-size: 3em;
+	}
+}

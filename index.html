@@ -1,64 +1,151 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <h1 id="name"> Jodi Sloan </h1>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jodi Sloan | Software Development Intern</title>
+		<meta name="description" content="Aspiring software developer based in Ottawa, Canada" />
+		<meta name="keywords" content="intern, student, portfolio, creative, inspiration, softwaredeveloper, ottawa" />
+		<meta name="author" content="Jodi Sloan" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+				<div class="container demo-1">
+					<div class="content">
+						<div id="top-header" class="top-header">
+							<canvas id="demo-canvas"></canvas>
+							<h1 class="main-title">Jodi<span class="thin">Sloan</span></h1>
+							<hr class="hr-title">
+							<h2 class="main-subtitle">Aspiring Software Developer</h2>
+						</div>
+					</div>
+				</div>
 
-  <h1 id="skills"> Skills </h1>
-  <div class = "skill-container">
-    <p>HTML</p>
-    <div class="container">
-      <div class="skills html">Intermediate</div>
-    </div>
-  </div>
+				<div class="sidebarWrapper">
+					<div class="sidebar">
+						<div class="sidebar-text">
+							<img id="logo" src="img/logo.png">
+							<div class="buttons">
+								<h1><a href="#top-header" class="nav-button">Home</a></h1>
+								<h1><a href="#about" class="nav-button">About</a></h1>
+								<h1><a href="#portfolio" class="nav-button">Portfolio</a></h1>
+								<h1><a href="#skills" class="nav-button">Skills</a></h1>
+							</div>
+							<ul class="social">
+								<li>
+									<a href="https://github.com/jsloa071">
+										<i class="fa fa-github-alt"></i>
+									</a>
+								</li>
+								<li>
+									<a href = "https://www.linkedin.com/in/jodi-sloan-0256a2126">
+										<i class= "fa fa-linkedin"></i>
+									</a>
+								<li>
+									<a href="mailto:jsloa071@uottawa.ca">
+										<i class="fa fa-envelope"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div> <!--Sidebar end -->
+					<div class="page-content">
+						<section class="about container-section page-section" id="about">
+							<div class= "about-text">
+								<h1 class="section-h1">About Me</h1>
+								<p>I’m a psychology graduate currently learning Computer Science in a unique <a href="https://www.mydevlife.ca/">partnership program</a> between Shopify Inc and Carleton University. I have a passion for creating intelligent technology, often inspired by the fields of neuroscience and psychology. </p>
+								<p class="plug">Look for me representing Carleton University in Carleton's first ever team to particpate in the <a href="http://csgames.org/corpo/">CSGames 2018</a>!</p>
+							</div>
+							<a id="download" href="files/Jodi_Sloan_Resume.pdf">Download CV</a>
+						</section>
+						<div class="container-section page-section white" id="portfolio">
+							<h1 class="section-h1 white">Portfolio</h1>
+							<h3 class="section-h3 white"> My projects so far: </p>
+								  <div class="column">
+								    <div class="portfolio-item">
+								      <img src="img/Breakout.png" alt="Breakout" style="width:98%; height:200px;">
+								      <h3>Breakout!</h3>
+								      <p>An interactive pong game created for my first Computer Science class at Shopify. </p>
+											<a href = "https://github.com/jsloa071/Breakout">View it on GitHub!</a>
+										</div>
+								    <div class="portfolio-item">
+								      <img src="img/PhotoBlur.png" alt="Flower" style="width:98%; height: 200px;">
+								      <h3>Photo Blur</h3>
+								      <p>A creative experiment with Processing (java graphics library).</p>
+											<a href= "https://github.com/jsloa071/PhotoBlur">View it on GitHub!</a>
+								    </div>
+								    <div class="portfolio-item">
+								      <img src="img/ProcessingSketch.png" alt="ProcessingSketch" style="width:98%; height:200px;">
+								      <h3>Exam Stress Play</h3>
+								      <p>My first ever interactive Processing animation. <br/><br/></p>
+											<a href = "https://github.com/jsloa071/Exam-Stress-Play">View it on GitHub!</a>
+								    </div>
+								    <div class="portfolio-item">
+								      <img src="img/Sorting.png" alt="Sorting" style="width:98%; height:200px;">
+								      <h3>Sorting Algorithm</h3>
+								      <p>A sketch that generates randomly-coloured dots and sorts them by brightness value.</p>
+											<a href="https://github.com/jsloa071/Sorting">View it on GitHub!</a>
+								    </div>
+								    <div class="portfolio-item">
+								      <img src="img/DataViz.png" alt="DataVisualization" style="width:98%; height:200px;">
+								      <h3>Data Visualization</h3>
+								      <p>An interactive data visualization using data processed from Government of Canada's Open Data website. </p>
+											<a href = "https://github.com/jsloa071/Data-Visualization-Disability-Illness-In-Canada">View it on GitHub!</a>
+										</div>
+								    <div class="portfolio-item">
+								      <img src="img/Bibliography.png" alt="Bibliography" style="width:98%; height: 200px;">
+								      <h3>Journal Database</h3>
+								      <p>A java project designed to store journal articles with a UI to view and manipulate database objects.</p>
+											<a href= "https://github.com/jsloa071/Bibliography-Db-Manager">View it on GitHub!</a>
+								    </div>
+								    <div class="portfolio-item">
+								      <img src="img/OutfitGenerator.jpg" alt="OutfitGenerator" style="width:98%; height:200px;">
+								      <h3>Outfit Generator</h3>
+								      <p>A java project to demonstrate knowledge of class design, inheritance, and polymorphism.<br/><br/></p>
+											<a href = "https://github.com/jsloa071/Outfit-Generator">View it on GitHub!</a>
+								    </div>
+								    <div class="portfolio-item">
+								      <img src="img/TreeTrimmer.png" alt="ChristmasTree" style="width:98%; height:200px;">
+								      <h3>Tree Trimmer</h3>
+								      <p>An interative java MVC program for decorating a virtual Christmas tree! <br/><br/></p>
+											<a href="https://github.com/jsloa071/Tree-Trimmer-Interactive">View it on GitHub!</a>
+								    </div>
+								  </div>
+						</div> <!-- Portfolio end -->
 
-  <div class = "skill-container">
-    <p>CSS</p>
-    <div class="container">
-      <div class="skills css">Intermediate</div>
-    </div>
-  </div>
+						<div class="page-section wow" id="skills">
+							<h1 class="section-h1">My Skills</h1>
+							<ul id="skill">
+								<li><span class="bar java"></span><h3>Java</h3></li>
+								<li><span class="bar html-css"></span><h3>Html // Css</h3></li>
+								<li><span class="bar javascript"></span><h3>Javascript</h3></li>
+								<li><span class="bar python"></span><h3>Python</h3></li>
+								<li><span class="bar ruby"></span><h3>Ruby</h3></li>
+								<li><span class="bar cpp"></span><h3>C++</h3></li>
+								<li><span class="bar hask"></span><h3>Haskell</h3></li>
 
-  <div class = "skill-container">
-    <p>Javascript</p>
-    <div class="container">
-      <div class="skills javascript">Intermediate</div>
-    </div>
-  </div>
 
-  <div class = "skill-container">
-    <p>Java</p>
-    <div class="container">
-      <div class="skills java">Beginner/Intermediate</div>
-    </div>
-  </div>
+							</ul>
+						</div> <!-- End Skills -->
 
-  <div class = "skill-container">
-    <p>Python</p>
-    <div class="container">
-      <div class="skills python">Beginner</div>
-    </div>
-  </div>
+					</div> <!-- Page content end -->
 
-  <div class = "skill-container">
-    <p>C++</p>
-    <div class="container">
-      <div class="skills cpp">Beginner</div>
-    </div>
-  </div>
+				</div> <!-- Sidebar wrapper end -->
 
-  <div class = "skill-container">
-    <p>Haskell</p>
-    <div class="container">
-      <div class="skills haskell">Novice</div>
-    </div>
-  </div>
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		<script src="js/demo-1.js"></script>
 
-</body>
+	</body>
 </html>
