@@ -66,8 +66,8 @@
 }
 
 ul.social li {
-  margin-left: 5px;
-  margin-right: 5px;
+/*   margin-left: 5px;
+  margin-right: 5px; */
   font-size: 28px !important;
   text-align: center;
   padding: 3px;
@@ -76,8 +76,6 @@ ul.social li {
 ul.social {
   list-style: none;
   padding-top: 15%;
-  margin: 0;
-  margin-left: 5%;
   display: flex;
   -webkit-box-orient: horizontal;
 }
