@@ -76,6 +76,7 @@ ul.social li {
 ul.social {
   list-style: none;
   padding-top: 15px;
+padding-left:10%;
   display: flex;
   -webkit-box-orient: horizontal;
 }
